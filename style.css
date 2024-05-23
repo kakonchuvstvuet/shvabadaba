@@ -1,0 +1,145 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  background-color: #333;
+  padding: 1%;
+  padding-left: 2%;
+  position: static;
+}
+
+header ul {
+  list-style-type: none;
+  margin-right:  0;
+  padding: 0;
+  text-align: center;
+}
+
+header li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+
+header a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  padding-right: 50px;
+}
+
+header a:hover {
+  color: #ffcc00;
+}
+
+.page1c a,
+.page2c a,
+.page3c a,
+.page4c a {
+  color: #ffcc00;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  margin-bottom: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer a:hover {
+  color: #ffcc00;
+}
+
+.textm {
+  margin-top: 5%;
+  margin-left: 5%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.settings {
+  margin-left: 5%;
+}
+
+.h22 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #333;
+}
+
+.settings, input[type="radio"], input[type="file"], input[type="time"], button {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #cddf2e;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  color: black;
+}
+
+button:hover {
+  background-color: #a1af24;
+  color: white;
+}
+
+.textt {
+  display: block;
+  font-size: large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.create-line {
+  width: 100%;
+  border-top: 3px solid #000000;
+}
+
+.settings a {
+  text-decoration: none;
+  color: #ffcc00;
+  font-size: 18px;
+  padding-right: 50px;
+}
+
+.settings a:hover {
+  color: #4d3e03;
+}
+
+.sqd {
+  position: absolute;
+  right: 800px;
+}
